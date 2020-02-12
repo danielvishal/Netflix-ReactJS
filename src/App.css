@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+body{
+  background-color: rgb(17, 16, 16);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav{
+  background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Land{
+  background-image: url('./components/back.jpeg');
+  padding-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Land #sign-in{
+  margin-top: 40px;
+}
+
+#land-img{
+  width: 50%;
+}
+
+#land-img .row{
+  padding-bottom: 10px !important; 
+}
+
+.Details{
+  background-color: rgb(17, 16, 16);
+}
+
+.Details #info{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-left:120px;
+}
+
+#info h5{
+  margin-bottom: 80px;
+}
+
+#try-it-now{
+  border: 1px solid white;
+  font-size: 20px;
+  padding-bottom: 40px;  
+}
+
+.Faq{
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+h3{
+  margin-bottom: 50px;
+}
+
+.Faq ul{
+  border: none;
+  background-color: black;
+}
+
+#faq{
+  margin-top: 15px;
+}  
+
+#faq-text{
+  border: none;
+}
+
+.Footer {
+  padding-top: 45px;
+  width: 100%;
+}
+
+h6{
+  margin-bottom: 50px;
+}
+
+#links{
+  margin-top: 15px;
+}
+
+.Footer a:link{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a:hover{
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row{
+  padding-bottom: 50px;
 }
